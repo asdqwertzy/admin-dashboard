@@ -140,6 +140,7 @@ button {
     gap: 40px;
     justify-content: flex-start;
     margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 .welcome-message h4,
@@ -188,6 +189,7 @@ h2 {
 .buttons {
     justify-content: flex-end;
     align-self: flex-end;
+    margin-top: auto;
 }
 
 .projects {
@@ -202,4 +204,103 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: 250px;
     gap: 2rem;
+}
+
+.content-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content-right h2 {
+    padding: 20px;
+}
+
+.announcement {
+    color: black;
+}
+
+.announcement h3 {
+    font-size: 18px;
+}
+
+.announcement h5 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.announcement-card,
+.trending-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 2px 5px 8px 2px rgba(0, 0, 0, 0.17);
+    width: 90%;
+}
+
+.trending img {
+    border-radius: 50px;
+    object-fit: contain;
+
+}
+
+
+.trending h3,
+h5 {
+    color: black;
+}
+
+.trending h3 {
+    font-size: 18px;
+    margin: unset;
+}
+
+.trending h5 {
+    font-size: 15px;
+    font-weight: normal;
+    margin: unset;
+}
+
+.trending_li {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.trending,
+.announcements {
+    width: 90%;
+}
+
+a:hover {
+    size: 110%;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+}
+
+
+a:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+}
+
+
+input:hover {
+    transform: scale(1.02);
+    transition: transform 0.1s ease;
+}
+
+li:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
 }
